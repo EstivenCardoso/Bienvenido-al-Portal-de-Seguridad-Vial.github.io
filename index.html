@@ -370,12 +370,147 @@
     }
 
     /* --- Responsive --- */
+    @media (max-width: 1024px) {
+      .container {
+        padding: 0 15px;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+      .content {
+        padding: 1.5rem;
+      }
+      .senales-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      }
+      .image-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      }
+    }
+
     @media (max-width: 768px) {
       h1 {
         font-size: 1.8rem;
       }
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      nav button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+      }
+      .content {
+        padding: 1rem;
+      }
       .stats-container {
         grid-template-columns: 1fr;
+      }
+      .senales-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+      .image-grid {
+        grid-template-columns: 1fr;
+      }
+      .image-card img {
+        height: 300px;
+      }
+      .video-container {
+        margin: 1rem 0;
+      }
+      .blog-article {
+        padding: 1.5rem;
+      }
+      .quiz-box {
+        max-width: 100%;
+        padding: 1rem;
+      }
+      .consejos-list {
+        padding: 1.5rem;
+      }
+      .chart-container {
+        padding: 1.5rem;
+      }
+      .alert-box {
+        padding: 1rem;
+      }
+      .card {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .mision-vision .card {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.8rem;
+      }
+      h3 {
+        font-size: 1.3rem;
+      }
+      nav button {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+      }
+      .content {
+        padding: 0.8rem;
+      }
+      .senales-grid {
+        grid-template-columns: 1fr;
+      }
+      .senal-card {
+        padding: 1rem;
+      }
+      .senal-icon {
+        font-size: 3rem;
+      }
+      .stat-card {
+        padding: 1.5rem;
+      }
+      .stat-number {
+        font-size: 2.5rem;
+      }
+      .image-card img {
+        height: 250px;
+      }
+      .video-container iframe {
+        height: 200px;
+      }
+      .blog-article {
+        padding: 1rem;
+      }
+      .quiz-box {
+        padding: 0.8rem;
+      }
+      .op-btn {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+      }
+      .comment-box {
+        padding: 0.8rem;
+      }
+      .alert-box {
+        padding: 0.8rem;
+      }
+      .consejo-item {
+        padding: 1rem;
+      }
+      .chart-container {
+        padding: 1rem;
+      }
+      .card {
+        padding: 20px;
+      }
+      .mision-vision .card {
+        padding: 20px;
+      }
+      footer {
+        padding: 1.5rem;
       }
     }
 
@@ -1136,6 +1271,8 @@
       La criminalística vial contribuye a que cada investigación sea transparente, precisa y verificable, evitando suposiciones y garantizando justicia para las víctimas.
       Además, los informes técnicos sirven para mejorar la infraestructura vial, actualizar las normas y reforzar la educación en seguridad.
     </p>
+
+
   </div>
 
   <!-- TARJETAS INFORMATIVAS -->
