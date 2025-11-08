@@ -12,7 +12,7 @@ Este es un portal web educativo dedicado a la promoción de la seguridad vial y 
 - **Diseño responsivo**: Adaptable a diferentes dispositivos.
 
 ## Cómo usar
-1. Abre el archivo `index5.html` en tu navegador web preferido.
+1. Abre el archivo `index.html` en tu navegador web preferido.
 2. Navega por las secciones usando los botones del menú de navegación.
 3. Interactúa con los elementos: ve videos, responde el cuestionario, busca en el blog, etc.
 
@@ -30,3 +30,4 @@ Desarrollado por [Tu Nombre o Equipo]. Para más información, contacta a [corre
 
 ## Licencia
 Este proyecto es de uso educativo y gratuito. © 2025 - Todos los derechos reservados.
+
